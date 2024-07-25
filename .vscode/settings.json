@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "prettier.tabWidth": 2,
+  "editor.tabSize": 2,
+  "cSpell.words": [
+    "clsx",
+    "hookform",
+    "lucide",
+    "Signup",
+    "sonner",
+    "tailwindcss",
+    "tanstack",
+    "Todos",
+    "zustand"
+  ]
+}
