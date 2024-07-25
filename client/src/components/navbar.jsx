@@ -29,11 +29,7 @@ const Navbar = () => {
           onClick={() => navigate("/")}
         />
         {token ? (
-          <Button
-            variant="destructive"
-            size="sm"
-            onClick={() => setToken(null)}
-          >
+          <Button variant="destructive" size="sm" onClick={handleLogout}>
             Logout
           </Button>
         ) : (
@@ -47,7 +43,7 @@ const Navbar = () => {
             <Button
               className="ml-5"
               variant={pathname === "/signup" ? "primary" : "secondary"}
-              onClick={handleLogout}
+              onClick={() => navigate("/signup")}
             >
               Signup
             </Button>
